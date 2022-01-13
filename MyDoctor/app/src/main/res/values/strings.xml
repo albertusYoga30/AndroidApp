@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">My Doctor</string>
+    <string name="nama_saya">Yoga Dwi Prasetyo</string>
+    <string name="consult_with_doctor">Konsultasi dengan dokter jadi lebih mudah &amp; fleksibel</string>
+    <string name="get_started">Get Started</string>
+    <string name="signIn">Sign In</string>
+
+    <!--Sign In page-->
+    <string name="signIn_and_consultation">Masuk dan mulai konsultasi</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot My Password</string>
+    <string name="create_new_account">Create New Account</string>
+
+    <!--Sign Up page-->
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="fullname">Full Name</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="signUp_continue">Continue</string>
+    <string name="skip_continue"><u>Skip for this</u></string>
+
+    <string name="signUp_continue_uploadfoto">Upload Photo</string>
+    <string name="signUp_continue_button">Upload and Continue</string>
+
+
+
+    <!--Home Page-->
+
+    <string name="konsultasi_header">Mau konsultasi hengan siapa hari ini?</string>
+
+    <!--List consultation-->
+    <string name="dokter_umum">Saya butuh <br />\n<b>Dokter Umum</b></string>
+    <string name="psikiater">Saya butuh <br />\n<b>Psikiater</b></string>
+    <string name="dokter_obat">Saya butuh <br />\n<b>Dokter Obat</b></string>
+    <string name="dokter_anak">Saya butuh <br />\n<b>Dokter Anak</b></string>
+    <string name="dokter_mata">Saya butuh <br />\n<b>Dokter Mata</b></string>
+
+    <!--list top rate doctors-->
+    <string name="top_rate_doctor">Top Rated Doctors</string>
+    <string name="doctor1_name">Alexa Rachel</string>
+    <string name="doctor1_specialist">Pediatrician</string>
+    <string name="rating5">5</string>
+
+    <string name="doctor2_name">Sunny Frank</string>
+    <string name="doctor2_specialist">Dentist</string>
+
+    <string name="doctor3_name">Poe Minn</string>
+    <string name="doctor3_specialist">Podiatrist</string>
+
+    <!--Good News-->
+    <string name="good_news">Good News</string>
+    <string name="news1">Is it safe to stay at home during coronavirus?</string>
+    <string name="news2">Consume yellow citrus helps you healthier</string>
+    <string name="news3">Learn how to make a proper orange juice at home</string>
+    <string name="today">Today</string>
+
+    <!-- Navigation   -->
+    <string name="title_activity_home_navigation">HomeNavigationActivity</string>
+    <string name="title_doctor">Doctor</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_Hospital">Hospital</string>
+
+    <!-- Profile menu -->
+    <string name="title_profile">Profile</string>
+    <string name="user_name">Shayna Melinda</string>
+    <string name="user_job">Product Designer</string>
+    <string name="text_logout">Logout</string>
+
+    <string name="title_editmenu_editprofile">Edit Profile</string>
+    <string name="subtitle_editmenu_editprofile">Last updated yesterday</string>
+
+    <string name="title_editmenu_language">Language</string>
+    <string name="subtitle_editmenu_language">Available 12 languages</string>
+
+    <string name="title_editmenu_giveUs_rate">Give Us Rate</string>
+    <string name="subtitle_editmenu_giveUs_rate">On Google Play Store</string>
+
+    <string name="title_editmenu_help_center">Help Center</string>
+    <string name="subtitle_editmenu_help_center">Read our guidelines</string>
+
+    <!-- Fragment hospital -->
+    <string name="title_hospital_fragment">Nearby Hospital</string>
+    <string name="title_count_hospital">3 tersedia</string>
+    <string name="hospital_name">Rumah Sakit Citra Bunga</string>
+    <string name="hospital_location">Jln. Surya Sejahtera 20</string>
+
+    <!-- Text Fragment -->
+    <string name="tittle_message">Messages</string>
+    <string name="name_message">Alexander Jannie</string>
+    <string name="value_message">Baik ibu terimakasih banyak atas waktu nya</string>
+
+
+
+
+
+
+</resources>

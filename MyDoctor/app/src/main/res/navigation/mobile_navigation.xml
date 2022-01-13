@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_doctor">
+
+    <fragment
+        android:id="@+id/navigation_doctor"
+        android:name="app.binar.synrgy.android.helloworld.ui.homenavigation.ui.doctor.DoctorFragment"
+        android:label="@string/title_doctor"
+        tools:layout="@layout/fragment_doctor"/>
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="app.binar.synrgy.android.helloworld.ui.homenavigation.ui.messages.MessagesFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/navigation_hospital"
+        android:name="app.binar.synrgy.android.helloworld.ui.homenavigation.ui.hospital.HospitalFragment"
+        android:label="@string/title_Hospital"
+        tools:layout="@layout/fragment_hospital" />
+</navigation>

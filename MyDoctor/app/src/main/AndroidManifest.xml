@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.binar.synrgy.android.helloworld">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloWorld">
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.homenavigation.HomeNavigationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home_navigation"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity
+            android:name=".ui.homePage.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.signUp.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.signin.SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.getStarted.GetStartedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
